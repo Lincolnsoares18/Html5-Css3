@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Teste Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Imagem Lincoln</h1>
+    <p>Apresento meu Teste em imagem dinâmica</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/Onca-P.png" type="image/png">
+        <source media="(min-width: 1050px)" srcset="imagens/Onca-M.png" type="image/png">
+        <img src="Imagens/Onca-g.png" alt="Imagem flexível">
+    </picture>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 0px;
+        }
+
+        header{
+            background-color: darkgrey;
+            padding: 10px;
+            margin: 0px;
+            text-align: center;
+        }
+        nav{
+            background-color: dimgrey;
+            padding: 3px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.183);
+        }
+
+        nav > a {
+            text-decoration:none ;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        main{
+            background-color: darkgrey;
+            padding: 5px;
+            margin: 05px;
+            border-radius: 20px;
+        }
+
+        article{
+            background-color: lightgrey;
+        }
+        
+        article > aside {
+            color: white;
+            background-color:  darkgrey ;
+        }
+
+        footer{
+            background-color: black;
+            color: bisque;
+            font-weight: bold;
+            text-align: center;
+            padding: 3px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="https://www.youtube.com/watch?v=YXnQ02HYB1w">Youtube</a>
+            <a href="https://jovempan.com.br/">Notícias</a>
+            <a href="https://app-vlc.hotmart.com/login">Cursos</a>
+            <a href="https://www.cursoemvideo.com/minha-conta/">Cursos profissionalizantes</a>
+            <a href="#"></a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="Cursos profissionalizantes">
+            <p>Administração Recursos humanos Tecnologia da informação</p>
+            
+        </section>
+         <section id="Cursos livres">
+            <article>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo ipsum neque mollitia sint eveniet minus, optio, quos quam error rerum quod qui! Ex sapiente obcaecati architecto commodi eius maxime. Dolores.</p>
+                <aside>Lincoln Soares Silva - Autor</aside>
+            </article>
+         </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Equipe LCN</p>
+
+    </footer>
+</body>
+</html>
