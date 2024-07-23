@@ -5,4 +5,4 @@
 
 <a href="https://lincolnsoares18.github.io/Html5-Css3/Exercícios/ex003/index.html"> Executar o exercício 003</a>
 
-<a href="https://Lincolnsoares18.github.io/Html5-Css3/blob/main/Exerc%C3%ADcios/Ex022/fundo006.html">Executar o exercício 022</a>
+<a href="https://Lincolnsoares18.github.io/Html5-Css3/blob/main/Exercícios/Ex022/fundo006.html">Executar o exercício 022</a>
