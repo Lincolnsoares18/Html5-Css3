@@ -1,3 +1,25 @@
 @charset "UTF-8"
 
 /* configurações gerais*/;
+
+*{
+    margin: 0px;
+    padding: opx;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(219, 220, 206);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: rgb(196, 191, 208);
+    text-shadow: 2px 3px 0px rgba(21, 25, 162, 0.287);
+    padding: 10px;
+
+
+}
