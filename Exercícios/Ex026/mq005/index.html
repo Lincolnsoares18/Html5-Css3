@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>media Query</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" /> 
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <Header> 
-        <h1>Escola Biblíca Dominical</h1>
-        <menu>
+        <h1>Escola Bíblica Dominical</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span> 
+        <menu id="itens">
             <ul>
                 <li><a href=Adultos>Hebrom</a></li>
                 <li><a href="Jovens">Gamaliel</a></li>
@@ -28,5 +30,14 @@
             <p>O jornalista Raikes teve a brilhante ideia de criar uma escola que funcionasse aos domingos e ensinasse princípios cristãos, boas maneiras, moral e civismo. Daí surgiu a Escola Dominical, fundada no final do século XVIII e recebeu o apoio de algumas senhoras que iam de casa em casa explicar sobre as aulas e convencer aos pais mandarem os filhos para as aulas aos domingos. A procura cresceu tanto que em três anos já havia sete escolas, com média de 30 alunos cada. E o objetivo de Raikes foi alcançado, pois, além de tirar essas crianças das ruas, em 12 anos, não existia nenhum criminoso para ser julgado naquela cidade.</p>
         </article>
     </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+               itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
