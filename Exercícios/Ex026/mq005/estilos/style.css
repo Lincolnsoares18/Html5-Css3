@@ -93,3 +93,7 @@ article > p {
     margin-top: 20px;
     margin-bottom: 10x;
 }
+
+img {
+    background-position:left ;
+}
